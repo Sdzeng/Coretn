@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coretn.apis:
+    image: coretn.apis
+    build:
+      context: .
+      dockerfile: Coretn.Apis/Dockerfile
